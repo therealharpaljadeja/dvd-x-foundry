@@ -4,7 +4,7 @@ pragma solidity ^0.8.0;
 import "ds-test/test.sol";
 import "forge-std/vm.sol";
 import "../src/levels/Unstoppable/ReceiverUnstoppable.sol";
-import "../src/DamnVulnerableToken.sol";
+import "../src/DamnValuableToken.sol";
 
 contract UnstoppableTest is DSTest {
     uint256 constant TOKENS_IN_VAULT = 1_000_000 ether;
