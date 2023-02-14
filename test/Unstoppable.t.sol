@@ -2,7 +2,6 @@
 pragma solidity ^0.8.0;
 
 import "ds-test/test.sol";
-import "../src/levels/Unstoppable/UnstoppableVault.sol";
 import "../src/levels/Unstoppable/ReceiverUnstoppable.sol";
 import "../src/DamnVulnerableToken.sol";
 

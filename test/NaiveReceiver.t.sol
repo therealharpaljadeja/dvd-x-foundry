@@ -47,6 +47,7 @@ contract NaiveReceiverTest is DSTest {
         }
 
         vm.stopPrank();
+
         assertEq(address(receiver).balance, 0);
     }
 }
