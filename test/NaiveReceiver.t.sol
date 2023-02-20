@@ -14,7 +14,7 @@ contract NaiveReceiverTest is DSTest {
     NaiveReceiverLenderPool pool;
     FlashLoanReceiver receiver;
     address ETH;
-    address player = address(69);
+    address player = address(uint160(uint256(keccak256("PLAYER"))));
 
     function setUp() public {
         pool = new NaiveReceiverLenderPool();
