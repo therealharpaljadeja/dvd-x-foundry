@@ -4,7 +4,6 @@ pragma solidity ^0.8.0;
 import "ds-test/test.sol";
 import "forge-std/vm.sol";
 import "../src/levels/Truster/TrusterLendingPool.sol";
-import "../src/levels/Truster/TrusterAttacker.sol";
 
 contract TrusterTest is DSTest {
     uint256 constant TOKENS_IN_POOL = 1_000_000 ether;
