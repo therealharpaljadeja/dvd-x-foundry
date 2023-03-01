@@ -3,9 +3,9 @@ pragma solidity ^0.8.0;
 
 import "forge-std/test.sol";
 import "../src/levels/PuppetV2/PuppetV2Pool.sol";
-import "../src/levels/PuppetV2/IUniswapV2Pair.sol";
-import "../src/levels/PuppetV2/IUniswapV2Factory.sol";
-import "../src/levels/PuppetV2/IUniswapV2Router02.sol";
+import "../src/UniswapV2/IUniswapV2Pair.sol";
+import "../src/UniswapV2/IUniswapV2Factory.sol";
+import "../src/UniswapV2/IUniswapV2Router02.sol";
 import "../src/DamnValuableToken.sol";
 import "../src/WETH9.sol";
 
